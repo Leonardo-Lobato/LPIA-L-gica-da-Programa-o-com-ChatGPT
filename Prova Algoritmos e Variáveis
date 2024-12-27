@@ -1,0 +1,14 @@
+def calcular_area_retangulo():
+    try:
+        base = float(input("Digite o valor da base do retângulo (em unidades): "))
+
+        altura = float(input("Digite o valor da altura do retângulo (em unidades): "))
+
+        area = base * altura
+
+        print(f"A área do retângulo é: {area:.2f}.")
+
+    except ValueError:
+        print("Insira valores válidos para a base e a altura.")
+
+calcular_area_retangulo()
